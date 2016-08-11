@@ -6,3 +6,11 @@
 # In your final submission:
 #  - Do not print anything extraneous!
 #  - Do not put anything but pass in main()
+
+def cummulative_sum(listtocummulate):
+    sum=0
+    newlist=[]
+    for elements in listtocummulate:
+        sum+=elements
+        newlist.append(sum)
+    return newlist
